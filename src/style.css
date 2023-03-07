@@ -1,0 +1,35 @@
+#style {
+  width: 100%;
+}
+.flex-rows {
+  display: flex;
+
+  justify-content: space-between;
+}
+#style th {
+  padding: 10px;
+  background: green;
+  color: white;
+}
+#style td {
+  padding: 10px;
+}
+#style tr:nth-child(even) {
+  background: rgb(189, 149, 229);
+}
+#style tr:hover {
+  background: rgb(98, 99, 156);
+}
+button {
+  color: cadetblue;
+  border-radius: 5px;
+  border: 1px solid black;
+  background: white;
+  padding: 5px;
+  margin: 6px;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+}
